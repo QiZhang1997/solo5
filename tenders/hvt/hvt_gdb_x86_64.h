@@ -60,12 +60,12 @@ struct hvt_gdb_regs {
     uint64_t rip;
     uint64_t eflags;
 
-    uint32_t cs;
-    uint32_t ss;
-    uint32_t ds;
-    uint32_t es;
-    uint32_t fs;
-    uint32_t gs;
+    uint16_t cs;
+    uint16_t ss;
+    uint16_t ds;
+    uint16_t es;
+    uint16_t fs;
+    uint16_t gs;
 };
 
 #endif /* HVT_GDB_X86_64_H */
